@@ -1,0 +1,220 @@
+.image-blog{
+    background-image: url(../../images/background.png);
+    background-repeat: no-repeat;
+    max-width: 1510px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+   .breadcrumb {
+     display: inline-block;
+     background: rgba(255, 255, 255, 0.1);
+     padding: 10px 20px;
+     border-radius: 8px;
+   }
+  
+   .breadcrumbs {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+  
+   .breadcrumbs .item a {
+     text-decoration: none;
+     color: #ffffff;
+     font-weight: bold;
+   }
+  
+   .breadcrumbs .item.current {
+     color: #ffc107;
+   }
+  
+   .breadcrumbs .separator {
+     margin: 0 10px;
+     color: #ffffff;
+   }
+  
+   .breadcrumbs .item a:hover {
+     text-decoration: underline;
+     color: #ffc107;
+   }
+   .heading-info{
+    font-family: "Marcellus SC", serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #3f4448;
+    padding: 10px;
+}
+.content{
+    padding: 0 80px;
+    margin: 80px 10px 60px 30px;
+}
+.content-caption {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3f4448;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.dot {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3f4448;
+    margin: 15px 0;
+    padding: 10px;
+    position: relative;
+    list-style-type:none;
+}
+
+.svg-logo:hover {
+    color: #121111;
+}
+.content-heading{
+    font-family: "Marcellus SC", serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #3f4448;
+    padding: 10px;
+}
+.loan-help{
+  font-family: "Marcellus SC", serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #3f4448;
+    padding: 10px;
+}
+table,td,th{
+  border: 1px solid;
+  text-align: center;
+  background-color: rgb(194, 142, 142);
+}
+td[scope="col"]{
+  background-color: rgb(173, 108, 108);
+}
+
+.heading-info-loan{
+  font-family: "Marcellus SC", serif;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 10px;
+}
+.table-body{
+  padding: 0 100px;
+}
+.table-content{
+  padding: 50px 50px;
+
+}
+.table-heading-info{
+  font-family: "Marcellus SC", serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 10px;
+}
+.loan-coptin{
+  padding: 0px 90px;
+}
+.loan-help-caption{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: #3f4448;
+  margin: 15px 0;
+  padding: 10px;
+  position: relative;
+  list-style-type:none;
+}
+.application-list{
+  font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3f4448;
+    margin: 15px 0;
+    padding: 10px;
+    position: relative;
+    list-style-type:none;
+}
+.faq_top{
+  font-family: "Marcellus SC", serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 10px;
+}
+.table-heading-infos{
+  font-family: "Marcellus SC", serif;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 10px;
+}
+/* ----------- */
+.accordion-button{
+  font-family: "Marcellus SC", serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 20px;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-button::before {
+  content: "+";
+  padding-right: 1rem;
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::before {
+  content: "-";
+  color: red;
+}
+footer ul li:hover{
+  color: red;
+}
+footer ul li{
+  padding-bottom: 7px !important;
+}
+footer i{
+  padding-top: 10px;
+}

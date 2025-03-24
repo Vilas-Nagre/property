@@ -1,0 +1,279 @@
+.image-blog{
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    max-width: 1510px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 130px
+  }
+  
+   .breadcrumb {
+     display: inline-block;
+     background: rgba(255, 255, 255, 0.1);
+     padding: 10px 20px;
+     border-radius: 8px;
+   }
+  
+   .breadcrumbs {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+  
+   .breadcrumbs .item a {
+     text-decoration: none;
+     color: #ffffff;
+     font-weight: bold;
+   }
+  
+   .breadcrumbs .item.current {
+     color: #ffc107;
+   }
+  
+   .breadcrumbs .separator {
+     margin: 0 10px;
+     color: #ffffff;
+   }
+   
+  
+   .breadcrumbs .item a:hover {
+     text-decoration: underline;
+     color: #ffc107;
+   }
+   .heading-info{
+    font-family: "Marcellus SC", serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #3f4448;
+    padding: 10px;
+}
+
+.our-services{
+  padding: 0px 60px;
+}
+.p-caption{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: #000000;
+  margin: 0px 0px 15px;
+}
+.row-second-body{
+  padding:0px 60px ;
+  margin: 100px 1px;
+}
+/*  */
+.hover-image {
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s;
+}
+.aboutus{
+  background-image:url(../../images/about/about5.jpeg);
+}
+.hover-image:hover {
+  transform: scale(1.1);
+}
+
+.hover-image {
+  width: 100%;
+}
+.sunshine-img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 314px;
+  width: 60%;
+
+}
+.drug-img {
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s;
+}
+
+.drug-img:hover {
+  transform: scale(1.1);
+}
+
+.drug-img {
+  width: 100%;
+}
+.tablet{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+/*  */
+.row-p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3f4448;
+}
+
+.drug-image{
+    display: flex;
+    justify-content: center;
+    padding: 0px 60px 200px 50px;
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.tablet{
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* --------------------------------------------- */
+
+.aboutus{
+  max-width: 100%;
+}
+.vision-section{
+  padding: 140px;
+}
+.vision-caption{
+  font-family: "Marcellus SC", serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 10px 60px 10px 60px;
+    color: #000000;
+}
+.vision{
+  font-family: "Marcellus SC", serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 10px 60px 10px 60px;
+  color: #000000;
+}
+.vision-card, .mission-card {
+  padding: 20px;
+  background-color: white;
+  color: #3f4448;
+  border: 1px solid #3b31314b;
+  border-radius: 0;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.vision-card:hover, .mission-card:hover {
+  background-color: #3f4448;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px #3f4448;
+}
+
+.vision-card h3, .mission-card h3 {
+  transition: color 0.3s ease-in-out;
+}
+
+.vision-caption:hover{
+  color: white;
+}
+
+
+/*  */
+/*  */
+
+
+.founder-container{
+  max-width: 1200px;
+  margin: auto;
+}
+.heading-info {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  color: #333;
+}
+
+.founder-card {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.founder-img {
+  width: 100%;
+  max-width: 300px;
+  height: 259px;
+  display: block;
+  margin: auto;
+}
+
+.founder-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.linkedin-logo {
+  margin-top: 10px;
+}
+
+.linkedin-logo a i {
+  font-size: 30px;
+  color: #0077b5;
+  transition: transform 0.3s ease-in-out;
+}
+
+.linkedin-logo a i:hover {
+  transform: scale(1.1);
+}
+
+.founder-info {
+  padding-top: 100px;
+}
+
+.heading-info-company {
+  font-family: "Marcellus SC", serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 10px 10px 10px 10px;
+  letter-spacing: 2px;
+}
+.heading-infos {
+  font-family: "Marcellus SC", serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #3f4448;
+  padding: 10px 10px 10px 10px;
+  /* margin-left: 100px; */
+}
+
+.quotation svg {
+  color: lightgray;
+  margin-bottom: 15px;
+}
+
+.company-founder-caption {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  /* text-transform: uppercase */
+}

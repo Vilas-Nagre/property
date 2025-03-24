@@ -1,0 +1,249 @@
+.navbar {
+    justify-content: center;
+    padding-bottom: 0;
+    background-color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    width: 170px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 170px;
+  }
+  
+  .logo-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-brand {
+    width: 130px;
+    height: 75px;
+  }
+  
+  .typo-heading {
+    font-family: "Marcellus SC", serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #feffff;
+    padding: 10px;
+  }
+  
+  .nav-item {
+    padding-top: 5px;
+    color: #333;
+    font-family: "Montserrat , serif";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+  }
+  .quick-links{
+    padding: 5px 60px;
+  }
+  .navbar-collapse {
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid;
+  }
+  
+  .dropdown-item {
+    color: white !important;
+  }
+  
+  .dropdown-item:hover {
+    color: red !important;
+    background-color: black !important;
+  }
+  
+  .navbar-nav .dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 0;
+  }
+  
+  .clearfix-home,
+  .current-item {
+    font-family: "Marcellus SC", serif;
+    font-size: 13px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #feffff;
+    padding: 10px;
+  }
+  
+  .fa-angle-right {
+    font-size: 10px;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #feffff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer {
+    background-color: #3f4448;
+    color: #ddd;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+  }
+  
+  .social-media-heading {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .para-center,
+  .para-cente {
+    text-align: justify;
+    line-height: 1.5;
+    color: #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .quick-links ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .quick-links li {
+    padding: 7px 0;
+  }
+  
+  .media-links-tags {
+    color: #ddd;
+    text-decoration: none;
+    padding-left: 7px;
+    transition: color 0.3s ease;
+  }
+  
+  .media-links-tags:hover {
+    color: red;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .soc-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .fa-fs:hover {
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .location iframe {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+  }
+  .fa-fs{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .footer-section {
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .social-media {
+      justify-content: center;
+    }
+  
+    .quick-links ul {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .quick-links li {
+      display: inline-block;
+      padding: 5px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 20px;
+    }
+  
+    .social-media-heading {
+      font-size: 14px;
+    }
+  
+    .quick-links li {
+      display: block;
+      text-align: center;
+    }
+  }
